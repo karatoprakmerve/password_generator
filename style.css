@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    box-sizing: border-box;    
+}
+
+body{
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+}
+.box{
+    background-color:rgb(255, 242, 242);
+    border: 3px solid rgb(211, 206, 223) ;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding: 30px;
+    margin-top: 300px;
+}
+.box h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 26px;
+    color:black;
+    font-family:monospace;
+    flex-wrap: wrap;
+}
+
+#password{
+    margin-left: 45px;
+    padding: 20px;
+    margin-bottom: 40px;
+    user-select: none;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    border: solid 2px rgb(211, 206, 223);
+    outline: none;
+    font-size: 20px;
+}
+#password::placeholder{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-top: auto;
+    margin-left: 20px;
+    border: 2px solid rgb(211, 206, 223);
+    border-radius: 10px;
+    width: 155px;
+    height: 50px;
+    text-align: center;
+    background-color:rgb(211, 206, 223);
+    display: flex;
+    color:black;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#btn2{
+    margin-left: 50px;
+}
+
+.slidercontainer {
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 130px;
+    height: 10px;
+    border: rgb(211, 206, 223) 1px solid;
+    border-radius: 12px;
+    outline: none;
+    background-color: white;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-left: 10px;
+  }
+  
+ /* .slider:hover {
+    opacity: 1;
+  }
+  */
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border:coral 1px solid;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+
+  /*
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  */
+
+  #clength{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-left: 43px;
+  }
+
+  #demo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+
+  p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-left: 43px;
+    margin-bottom: 20px;
+  }

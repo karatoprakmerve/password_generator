@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">  
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="style.css">
+      </head>
+    <body>
+        <div class="box">
+            <h2>Random Password Generator</h2>
+            <label>
+            <input type="text" id="password" placeholder="Create Password" readonly> <br></label>
+            <table>
+                <tr>
+                    <div class="slidercontainer">
+                        <label for="myRange" id="clength">Choose Length 
+                        <input type="range" min="5" max="12" value="7" class="slider" id="myRange"></label>
+                        <p>Value: <span id="demo"></span></p>
+                      </div>
+                </tr>
+                <tr>
+                    <th>
+                        <button type="button" onclick="generatePassword()" id="btn1">Generate</button>
+                    </th>
+                    <th>
+                        <button type="button" onclick="copyPassword()" id="btn2">Copy</button>
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
+    
